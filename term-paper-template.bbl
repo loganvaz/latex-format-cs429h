@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+
+\bibitem{boardman:sauser:2008}
+John Boardman and Brian Sauser.
+\newblock {\em Systems Thinking: Coping with 21st Century Problems}, chapter~2.
+\newblock {CRC Press}, 2008.
+
+\bibitem{parnas:1985}
+{David Lorge Parnas}.
+\newblock Software aspects of strategic defense systems.
+\newblock {\em {Communications of the ACM}}, 28(12):1326--1335, December 1985.
+
+\bibitem{simon:1962}
+{Herbert A. Simon}.
+\newblock The architecture of complexity.
+\newblock {\em {Proceedings of the American Philosophical Society}},
+  106(6):467--482, {12 December 1962}.
+
+\bibitem{reason:2000}
+{James Reason}.
+\newblock Human error: models and management.
+\newblock {\em {BMJ}}, 320:768--770, 2000.
+
+\bibitem{lampson:1983}
+Butler~W. Lampson.
+\newblock Hints for computer system design.
+\newblock {\em SIGOPS Operating Systems Review}, 17(5):33–48, October 1983.
+
+\bibitem{lampson:1992}
+Butler~W. Lampson.
+\newblock {Principles for Computer System Design}.
+\newblock \url{https://dl.acm.org/ft_gateway.cfm?id=2159562&type=pdf}, 1992.
+\newblock ACM Turing Award lecture.
+
+\bibitem{vonBertalanffy:1950}
+{Ludwig von Bertalanffy}.
+\newblock The theory of open systems in physics and biology.
+\newblock {\em {Science}}, 111:23--29, 1950.
+
+\bibitem{ackoff:1994}
+{Russell L. Ackoff}.
+\newblock Systems thinking and thinking systems.
+\newblock {\em {System Dynamics Review}}, 10(2--3):175--188, {Summer--Fall}
+  1994.
+
+\bibitem{klein:2021}
+{The Ezra Klein Show}.
+\newblock To understand this era, you need to think in systems.
+\newblock
+  \url{https://www.nytimes.com/2021/02/02/opinion/ezra-klein-podcast-zeynep-tufecki.html},
+  2021.
+
+\end{thebibliography}

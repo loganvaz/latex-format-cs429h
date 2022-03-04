@@ -1,0 +1,123 @@
+\documentclass[11pt]{article}
+
+\usepackage{fullpage,times,hyperref,graphicx}
+
+% The next line is the title of your paper. Update it.
+\title{The Title of Your Paper} 
+% The next line is the author information for your paper. Update it.
+\author{Your full name and UT EID}
+% The next line is the timestamp for your paper. DO NOT CHANGE IT.
+\date{\today}
+
+% The next line controls the formatting of your references. DO NOT CHANGE IT.
+\bibliographystyle{plain} 
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+This is a \LaTeX\ template file for you to use in your writing assignments in C S 429.
+The text in this file shows you how to use several of the features of \LaTeX.
+It may help you to think of \LaTeX\ as a powerful markup language for documents, 
+similar to HTML or XML.
+
+\emph{Every assignment in C S 429 is an individual assignment.}
+Before you begin, 
+please take the time to review the course policy on academic integrity at:
+\url{https://www.cs.utexas.edu/academics/conduct}.
+
+\section{Details of the assignment}
+The word \emph{system} is among the most overloaded in the English language.
+Oxford lists \href{https://www.oxfordlearnersdictionaries.com/us/definition/american_english/system}{four senses} of the word in American English 
+and \href{https://www.oxfordlearnersdictionaries.com/us/definition/english/system}{five} in British English;
+Merriam-Webster \href{https://www.merriam-webster.com/dictionary/system}{lists} five major definitions,
+with multiple finer shades of meaning within them;
+Chambers \href{https://chambers.co.uk/search/?query=system&title=21st}{lists} nine;
+and Collins \href{https://www.collinsdictionary.com/dictionary/english/system}{lists} even more.
+This multiplicity of connotations begs the question of exactly what constitutes a system in the field of computer science.
+
+You are to write an essay of no more than 1000 content words~\footnote{That is, excluding title, references, and the like.}
+ that accomplishes the following tasks:
+\begin{itemize}
+\item surveys a selection of definitions of the term;
+\item synthesizes your own definition for it that is relevant to the kinds of systems we study in C S 429 and C S 439; and
+\item creates a rubric for fully describing a system.
+\end{itemize}
+Of course,
+you need to convince your reader
+(me)
+of the soundness of your arguments all through the essay.
+
+To get you started,
+I have provided an annotated list of readings drawn from sources spanning multiple disciplines.
+PDF versions of the materials,
+where applicable,
+have been uploaded to Canvas.
+\begin{itemize}
+\item 
+Ackoff's paper~\cite{ackoff:1994} provides a good framework for systems.
+Chapter~2 from Boardman and Sauser's book~\cite{boardman:sauser:2008} defines systems from a fairly broad perspective.
+The authors come from an engineering and management background.
+\item
+The ``Swiss cheese'' paper by Reason~\cite{reason:2000} is a classic in the systems community.
+Written by a psychologist,
+it was referenced often last year in the early days of the pandemic.
+A recent episode of The Ezra Klein Show podcast featuring Zeynep Tufecki~\cite{klein:2021} also focuses on systems thinking 
+in the context of sociology and medicine.
+\item
+The biologist {v}on Bertalanffy was a major driving force behind what we today call systems biology.
+His 1950 paper~\cite{vonBertalanffy:1950} is focused on the notion of systems in the natural sciences.
+\item
+Coming to computer science,
+Parnas's paper on mission-critical systems software~\cite{parnas:1985} contains,
+among other things,
+a taxonomy of systems.
+Simon's paper on the architecture of complexity~\cite{simon:1962} is an outstanding paper by a pioneer and a giant in our field, 
+who won both the A. M. Turing Award (1975) and the Nobel Memorial Prize in Economic Sciences (1978).
+But probably the two most famous papers on system design are the ones written ten years apart by Butler Lampson.
+The first paper~\cite{lampson:1983},
+from 1983,
+distills Lampson's experiences from designing and implementing a large array of computer systems.
+The second paper~\cite{lampson:1992},
+his Turing Award lecture,
+is a rumination on how ``depressingly little'' has been learned in the decade since his earlier paper.
+\end{itemize}
+
+\emph{You are required to meaningfully incorporate at least three of these readings in your paper.}
+You are free to use additional materials if you so choose.
+
+I may update this list with additional readings.
+Such updates will be announced on Piazza.
+
+Needless to say,
+the paper is expected to be in grammatical English and in an appropriate academic style.
+Come talk to me if you are unsure of what this entails.
+If you need help with the mechanics of writing,
+your best resource is \href{http://uwc.utexas.edu/}{The University Writing Center}.
+They have a wide variety of facilities,
+including one-on-one consultations with over 100 consultants,
+to help you.
+
+You must use \LaTeX\ to format your paper.
+I will provide the necessary document templates and a makefile to simplify the workflow.
+The UTCS lab machines all have the \LaTeX\ software tools installed on them.
+
+\section{Handin}
+You will provide a link to the PDF document generated by \LaTeX: 
+once at the time of the checkpoint,
+and then again at the time of final submission.
+Generate the PDF document by following the instructions in the Makefile that accompanies this template.
+
+The first checkpoint should be a first draft.
+I will read your draft and provide you feedback on it,
+with the expectation that you will incorporate the feedback into your final version.
+
+\section{Evaluation}
+The journal is worth 10\% of the total course grade.
+The first checkpoint counts for three points,
+and the final version of the paper counts for seven points.
+Detailed grading rubrics will be provided on Canvas.
+
+% The following line says where to find your bibliography database.
+\bibliography{term-paper-template}
+\end{document}
